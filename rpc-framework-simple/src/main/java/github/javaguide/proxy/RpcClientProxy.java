@@ -34,6 +34,7 @@ public class RpcClientProxy implements InvocationHandler {
 
     public RpcClientProxy(ClientTransport clientTransport, RpcServiceProperties rpcServiceProperties) {
         this.clientTransport = clientTransport;
+        log.info("wotijiaolw");
         if (rpcServiceProperties.getGroup() == null) {
             rpcServiceProperties.setGroup("");
         }
